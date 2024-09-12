@@ -13,3 +13,8 @@ In this project I analysed the records collected from the portable measuring dev
 The data was obtained from the downloaded records of the meter recording the ambient concentration of formaldehyde in the Grossing Area. This records are in CSV files and include formaldehyde concentration in ppm and mg per cubic meter, air temperature and humiduty.
 
 <img width="715" alt="image" src="https://github.com/user-attachments/assets/5cc81b7f-8fa4-4802-ae86-78f0218efff7">
+
+There are 713 records when the meter failed to measure or record the formaldehyde level:
+
+<img width="166" alt="image" src="https://github.com/user-attachments/assets/79cf4669-228d-43f9-ac87-bbd335019aa0">
+
