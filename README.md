@@ -7,28 +7,28 @@
 
 ##  Project Objective
 
-This project investigates the **ambient formaldehyde levels** in the Grossing Area of a Community Anatomic Pathology laboratory using historical data from portable measurement devices (PPM HTV-M Formaldemeters).
+This project investigates the ambient formaldehyde levels in the Grossing Area of a Community Anatomic Pathology laboratory using historical data from portable measurement devices (PPM HTV-M Formaldemeters).
 
 ![meter](https://github.com/user-attachments/assets/604f23b1-b0a0-4434-9b15-6f2b67138a7c)
 
 
 **The primary objectives:**
 
--  Understand the **patterns and variability** of formaldehyde exposure
--  Assess **environmental factors** influencing concentration (temperature, humidity, occupancy)
--  Evaluate the **reliability and limitations** of legacy measurement equipment
--  Provide **data-driven recommendations** to improve worker safety and compliance
+-  Understand the patterns and variability of formaldehyde exposure
+-  Assess environmental factors influencing concentration (temperature, humidity, occupancy)
+-  Evaluate the reliability and limitations of legacy measurement equipment
+-  Provide data-driven recommendations to improve worker safety and compliance
 
 ---
 
 ##  Why It Matters
 
-**Formaldehyde is a proven carcinogen** and potent local irritant. Continuous exposure even at low levels poses health risks, especially in environments like pathology labs.
+Formaldehyde is a proven carcinogen and potent local irritant. Continuous exposure even at low levels poses health risks, especially in environments like pathology labs.
 
 - **WorkSafe NZ Acceptable Limit:** 0.3 ppm  
 - **Recommended Safe Level:** 0.1 ppm
 
-These thresholds apply to areas where personnel do not wear respiratory protection. Monitoring is both a **compliance requirement** and a **moral obligation** to protect healthcare workers.
+These thresholds apply to areas where personnel do not wear respiratory protection. Monitoring is both a compliance requirement and a moral obligation to protect healthcare workers.
 
 ---
 
@@ -48,13 +48,13 @@ These thresholds apply to areas where personnel do not wear respiratory protecti
 
 ---
 
-## 🧹 Data Cleaning Strategy
+## Data Cleaning Strategy
 
 To ensure analytical robustness, the following filters were applied:
 
-- Removed all **formaldehyde readings > 0.5 ppm** (potential other laboratory reagent interference)
-- Excluded records with **temperature < 15°C** (indicating faulty sensor or inappropriate measurement conditions)
-- Excluded records with **humidity < 30%** (indicating faulty sensor or inappropriate measurement conditions)
+- Removed all formaldehyde readings **> 0.5 ppm** (potential other laboratory reagent interference)
+- Excluded records with temperature **< 15°C** (indicating faulty sensor or inappropriate measurement conditions)
+- Excluded records with humidity **< 30%** (indicating faulty sensor or inappropriate measurement conditions)
 - Dropped incomplete or clearly corrupted records
 
 ---
@@ -94,24 +94,24 @@ To ensure analytical robustness, the following filters were applied:
 
 ##  Key Findings
 
-1. **Room occupancy** is the most consistent factor influencing formaldehyde levels.
-2. **Temperature** affects concentration but does not need to be kept uncomfortably low.
-3. Adding more stations **may keep levels within acceptable limits**, but WorkSafe’s cap of **5 workers** remains reasonable.
-4. The current formaldehyde meter is **outdated and should be upgraded** for more reliable, continuous monitoring.
+1. Room occupancy is the most consistent factor influencing formaldehyde levels.
+2. Temperature affects concentration but does not need to be kept uncomfortably low.
+3. Adding more stations may keep levels within acceptable limits, but WorkSafe’s cap of 5 workers remains reasonable.
+4. The current formaldehyde meter is outdated and should be upgraded for more reliable, continuous monitoring.
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
--  Transition to **modern, network-connected** sensors with real-time logging and automated calibration.
+-  Transition to modern, network-connected sensors with real-time logging and automated calibration.
 -  Evaluate ventilation efficiency during peak hours.
--  Retain the existing policy of a **maximum of 5 people** in the Grossing Area.
+-  Retain the existing policy of a maximum of 5 people in the Grossing Area.
 
 ---
 
 ##  Disclaimer
 
-This study involves a retrospective data analysis. The dataset was de-identified and contained **no personal or patient information**. Measurements were sourced from general-purpose monitoring instruments and not medical-grade sensors.
+This study involves a retrospective data analysis. The dataset was de-identified and contained no personal or patient information. Measurements were sourced from general-purpose monitoring instruments and not medical-grade sensors.
 
 ---
 
