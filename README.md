@@ -1,7 +1,6 @@
 #  Formaldehyde Levels Control Assessment in a Pathology Laboratory Environment
 
 **Author:** Anastasia Raspopina  
-**Role:** Senior Pathologist Assistant | Data Analyst  
 **Location:** Auckland, New Zealand
 
 ---
