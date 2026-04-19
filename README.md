@@ -1,4 +1,4 @@
-# 🧪 Formaldehyde Levels Control Assessment in a Pathology Laboratory Environment
+#  Formaldehyde Levels Control Assessment in a Pathology Laboratory Environment
 
 **Author:** Anastasia Raspopina  
 **Role:** Senior Pathologist Assistant | Data Analyst  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 This project investigates the **ambient formaldehyde levels** in the Grossing Area of a Community Anatomic Pathology laboratory using historical data from portable measurement devices (PPM HTV-M Formaldemeters).
 
@@ -15,14 +15,14 @@ This project investigates the **ambient formaldehyde levels** in the Grossing Ar
 
 **The primary objectives:**
 
-- 🧭 Understand the **patterns and variability** of formaldehyde exposure
-- 📉 Assess **environmental factors** influencing concentration (temperature, humidity, occupancy)
-- 🔧 Evaluate the **reliability and limitations** of legacy measurement equipment
-- 🏥 Provide **data-driven recommendations** to improve worker safety and compliance
+-  Understand the **patterns and variability** of formaldehyde exposure
+-  Assess **environmental factors** influencing concentration (temperature, humidity, occupancy)
+-  Evaluate the **reliability and limitations** of legacy measurement equipment
+-  Provide **data-driven recommendations** to improve worker safety and compliance
 
 ---
 
-## ⚕️ Why It Matters
+##  Why It Matters
 
 **Formaldehyde is a proven carcinogen** and potent local irritant. Continuous exposure even at low levels poses health risks, especially in environments like pathology labs.
 
@@ -33,7 +33,7 @@ These thresholds apply to areas where personnel do not wear respiratory protecti
 
 ---
 
-## 📂 Data Overview
+##  Data Overview
 
 - **Source:** CSV logs from PPM HTV-M devices (manual download)
 - **Fields:**  
@@ -42,7 +42,7 @@ These thresholds apply to areas where personnel do not wear respiratory protecti
   - `Temperature (°C)`  
   - `Relative Humidity (%)`
 
-> ⚠️ **Known device limitations:**
+>  **Known device limitations:**
 > - Prone to cross-sensitivity with other reagents (ethyl alcohol, xylene)
 > - Inconsistent temperature/humidity readings due to sensor age
 > - Requires frequent calibration
@@ -60,9 +60,9 @@ To ensure analytical robustness, the following filters were applied:
 
 ---
 
-## 📊 Exploratory Insights
+##  Exploratory Insights
 
-### 📌 Daily Trends in Formaldehyde Levels
+###  Daily Trends in Formaldehyde Levels
 
 *Shows day-to-day fluctuation in median exposure.*
 
@@ -71,7 +71,7 @@ To ensure analytical robustness, the following filters were applied:
 
 ---
 
-### 📈 Formaldehyde vs. Temperature 
+###  Formaldehyde vs. Temperature 
 
 *Evaluates whether temperature fluctuations correlate with elevated emissions.*
 
@@ -79,13 +79,13 @@ To ensure analytical robustness, the following filters were applied:
 
 ---
 
-### 📈 Formaldehyde vs. Humidity 
+###  Formaldehyde vs. Humidity 
 
 *Evaluates whether humidity fluctuations correlate with elevated emissions.*
 
 ![formVStemp](https://github.com/user-attachments/assets/ae6bfba0-8930-4fcb-9058-27643acbaf2f)
 
-### ⏰ Shifts Effects
+###  Shifts Effects
 
 *Compare median emissions during the day and night shifts.*
 
@@ -93,7 +93,7 @@ To ensure analytical robustness, the following filters were applied:
 
 ---
 
-## 📋 Key Findings
+##  Key Findings
 
 1. **Room occupancy** is the most consistent factor influencing formaldehyde levels.
 2. **Temperature** affects concentration but does not need to be kept uncomfortably low.
@@ -104,19 +104,19 @@ To ensure analytical robustness, the following filters were applied:
 
 ## ✅ Recommendations
 
-- 🔁 Transition to **modern, network-connected** sensors with real-time logging and automated calibration.
-- 🌀 Evaluate ventilation efficiency during peak hours.
-- 🧍‍♀️ Retain the existing policy of a **maximum of 5 people** in the Grossing Area.
+-  Transition to **modern, network-connected** sensors with real-time logging and automated calibration.
+-  Evaluate ventilation efficiency during peak hours.
+-  Retain the existing policy of a **maximum of 5 people** in the Grossing Area.
 
 ---
 
-## 📎 Disclaimer
+##  Disclaimer
 
 This study involves a retrospective data analysis. The dataset was de-identified and contained **no personal or patient information**. Measurements were sourced from general-purpose monitoring instruments and not medical-grade sensors.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Anastasia Raspopina**  
 📧 AnaRaspopina@gmail.com  
